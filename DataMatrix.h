@@ -21,9 +21,9 @@ public:
     unsigned int getCols() const;
     unsigned int getRows() const;
 
-    void add(const std::vector<T>& vec):
+    void add(const std::vector<T>& vec);
 
-    T& operator()(const unsigned& _nows, const unsigned& _ncol);
+    T& operator()(const unsigned& _nrow, const unsigned& _ncol);
 
     unsigned int Size();
 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11    CMakeFiles/logistic_regression.dir/main.o  -o logistic_regression -rdynamic 
